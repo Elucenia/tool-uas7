@@ -1,0 +1,513 @@
+{
+  "tool": {
+    "id": "uas7",
+    "title": "UAS7 (Escore de Atividade da Urticária)",
+    "short": "Atividade da urticária crônica em 7 dias",
+    "desc": "Calcule o UAS7, o escore de atividade da urticária crônica espontânea: urticas e prurido registrados por 7 dias, com as faixas de gravidade.",
+    "lead": "Mede a atividade da urticária crônica espontânea pela soma diária de urticas e prurido, registrada pelo paciente durante 7 dias seguidos.",
+    "spec": [
+      "alergia-e-imunologia",
+      "dermatologia"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "d1p",
+        "Dia 1 · urticas (pápulas) em 24 h",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma",
+            "1": "&lt; 20",
+            "2": "20 a 50",
+            "3": "&gt; 50"
+          }
+        }
+      ],
+      [
+        "d1c",
+        "Dia 1 · prurido",
+        "radio",
+        {
+          "opts": {
+            "0": "Ausente",
+            "1": "Leve",
+            "2": "Moderado",
+            "3": "Intenso"
+          }
+        }
+      ],
+      [
+        "d2p",
+        "Dia 2 · urticas (pápulas) em 24 h",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma",
+            "1": "&lt; 20",
+            "2": "20 a 50",
+            "3": "&gt; 50"
+          }
+        }
+      ],
+      [
+        "d2c",
+        "Dia 2 · prurido",
+        "radio",
+        {
+          "opts": {
+            "0": "Ausente",
+            "1": "Leve",
+            "2": "Moderado",
+            "3": "Intenso"
+          }
+        }
+      ],
+      [
+        "d3p",
+        "Dia 3 · urticas (pápulas) em 24 h",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma",
+            "1": "&lt; 20",
+            "2": "20 a 50",
+            "3": "&gt; 50"
+          }
+        }
+      ],
+      [
+        "d3c",
+        "Dia 3 · prurido",
+        "radio",
+        {
+          "opts": {
+            "0": "Ausente",
+            "1": "Leve",
+            "2": "Moderado",
+            "3": "Intenso"
+          }
+        }
+      ],
+      [
+        "d4p",
+        "Dia 4 · urticas (pápulas) em 24 h",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma",
+            "1": "&lt; 20",
+            "2": "20 a 50",
+            "3": "&gt; 50"
+          }
+        }
+      ],
+      [
+        "d4c",
+        "Dia 4 · prurido",
+        "radio",
+        {
+          "opts": {
+            "0": "Ausente",
+            "1": "Leve",
+            "2": "Moderado",
+            "3": "Intenso"
+          }
+        }
+      ],
+      [
+        "d5p",
+        "Dia 5 · urticas (pápulas) em 24 h",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma",
+            "1": "&lt; 20",
+            "2": "20 a 50",
+            "3": "&gt; 50"
+          }
+        }
+      ],
+      [
+        "d5c",
+        "Dia 5 · prurido",
+        "radio",
+        {
+          "opts": {
+            "0": "Ausente",
+            "1": "Leve",
+            "2": "Moderado",
+            "3": "Intenso"
+          }
+        }
+      ],
+      [
+        "d6p",
+        "Dia 6 · urticas (pápulas) em 24 h",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma",
+            "1": "&lt; 20",
+            "2": "20 a 50",
+            "3": "&gt; 50"
+          }
+        }
+      ],
+      [
+        "d6c",
+        "Dia 6 · prurido",
+        "radio",
+        {
+          "opts": {
+            "0": "Ausente",
+            "1": "Leve",
+            "2": "Moderado",
+            "3": "Intenso"
+          }
+        }
+      ],
+      [
+        "d7p",
+        "Dia 7 · urticas (pápulas) em 24 h",
+        "radio",
+        {
+          "opts": {
+            "0": "Nenhuma",
+            "1": "&lt; 20",
+            "2": "20 a 50",
+            "3": "&gt; 50"
+          }
+        }
+      ],
+      [
+        "d7c",
+        "Dia 7 · prurido",
+        "radio",
+        {
+          "opts": {
+            "0": "Ausente",
+            "1": "Leve",
+            "2": "Moderado",
+            "3": "Intenso"
+          }
+        }
+      ]
+    ],
+    "score": {
+      "label": "UAS7",
+      "unit": "de 42",
+      "bands": [
+        [
+          0,
+          "low",
+          "Sem urticária na semana"
+        ],
+        [
+          1,
+          "low",
+          "Urticária bem controlada (1 a 6)"
+        ],
+        [
+          7,
+          "mid",
+          "Atividade leve (7 a 15)"
+        ],
+        [
+          16,
+          "mid",
+          "Atividade moderada (16 a 27)",
+          "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe."
+        ],
+        [
+          28,
+          "high",
+          "Atividade grave (28 a 42)",
+          "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe."
+        ]
+      ]
+    },
+    "formula": "<p>A cada dia (24 horas), o paciente registra:</p><ul><li><strong>Urticas:</strong> 0 = nenhuma; 1 = &lt; 20; 2 = 20 a 50; 3 = &gt; 50 (ou grandes áreas confluentes).</li><li><strong>Prurido:</strong> 0 = ausente; 1 = leve (presente, não incomoda); 2 = moderado (incomoda, sem atrapalhar atividades ou sono); 3 = intenso (atrapalha atividades ou sono).</li></ul><p>UAS diário = 0 a 6. <strong>UAS7</strong> = soma de 7 dias consecutivos (0 a 42).</p>",
+    "table": [
+      [
+        "UAS7",
+        "Atividade"
+      ],
+      [
+        "0",
+        "Sem urticária"
+      ],
+      [
+        "1 a 6",
+        "Bem controlada"
+      ],
+      [
+        "7 a 15",
+        "Leve"
+      ],
+      [
+        "16 a 27",
+        "Moderada"
+      ],
+      [
+        "28 a 42",
+        "Grave"
+      ]
+    ],
+    "table_note": "Faixas de Stull et al. (2017), adotadas pela diretriz internacional de urticária.",
+    "tips": [
+      "O registro deve ser prospectivo, feito pelo próprio paciente uma vez por dia: não reconstrua a semana de memória na consulta.",
+      "Vale para urticária crônica espontânea; nas urticárias induzidas (dermografismo, frio, pressão), use testes de provocação.",
+      "Angioedema não entra no UAS7: se presente, registre-o com o AAS (Angioedema Activity Score).",
+      "Use o UAS7 para acompanhar a resposta: queda de 9,5 a 10,5 pontos é considerada a mínima diferença clinicamente importante."
+    ],
+    "sources": [
+      [
+        "Młynek A et al. How to assess disease activity in patients with chronic urticaria? Allergy, 2008.",
+        "https://doi.org/10.1111/j.1398-9995.2008.01726.x"
+      ],
+      [
+        "Stull D et al. Analysis of disease activity categories in chronic spontaneous/idiopathic urticaria. Br J Dermatol, 2017.",
+        "https://doi.org/10.1111/bjd.15454"
+      ],
+      [
+        "Zuberbier T et al. The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria. Allergy, 2022.",
+        "https://doi.org/10.1111/all.15090"
+      ]
+    ],
+    "cases": [
+      [
+        "Semana sem lesões: 0",
+        {
+          "d1p": "0",
+          "d1c": "0",
+          "d2p": "0",
+          "d2c": "0",
+          "d3p": "0",
+          "d3c": "0",
+          "d4p": "0",
+          "d4c": "0",
+          "d5p": "0",
+          "d5c": "0",
+          "d6p": "0",
+          "d6c": "0",
+          "d7p": "0",
+          "d7c": "0"
+        },
+        {
+          "score": 0,
+          "level": "low",
+          "verdict": "Sem urticária"
+        }
+      ],
+      [
+        "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        {
+          "d1p": "1",
+          "d1c": "0",
+          "d2p": "1",
+          "d2c": "1",
+          "d3p": "0",
+          "d3c": "0",
+          "d4p": "1",
+          "d4c": "1",
+          "d5p": "0",
+          "d5c": "0",
+          "d6p": "0",
+          "d6c": "1",
+          "d7p": "0",
+          "d7c": "0"
+        },
+        {
+          "score": 6,
+          "level": "low",
+          "verdict": "bem controlada"
+        }
+      ],
+      [
+        "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        {
+          "d1p": "2",
+          "d1c": "1",
+          "d2p": "2",
+          "d2c": "1",
+          "d3p": "2",
+          "d3c": "1",
+          "d4p": "2",
+          "d4c": "1",
+          "d5p": "2",
+          "d5c": "1",
+          "d6p": "2",
+          "d6c": "1",
+          "d7p": "2",
+          "d7c": "1"
+        },
+        {
+          "score": 21,
+          "level": "mid",
+          "verdict": "moderada"
+        }
+      ],
+      [
+        "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        {
+          "d1p": "3",
+          "d1c": "2",
+          "d2p": "3",
+          "d2c": "2",
+          "d3p": "3",
+          "d3c": "2",
+          "d4p": "3",
+          "d4c": "2",
+          "d5p": "3",
+          "d5c": "2",
+          "d6p": "3",
+          "d6c": "2",
+          "d7p": "3",
+          "d7c": "2"
+        },
+        {
+          "score": 35,
+          "level": "high",
+          "verdict": "grave"
+        }
+      ]
+    ],
+    "batch": "clinica",
+    "kind": "Escore",
+    "config": {
+      "unit": "de 42",
+      "label": "UAS7",
+      "fields": [
+        [
+          "d1p",
+          "radio",
+          0
+        ],
+        [
+          "d1c",
+          "radio",
+          0
+        ],
+        [
+          "d2p",
+          "radio",
+          0
+        ],
+        [
+          "d2c",
+          "radio",
+          0
+        ],
+        [
+          "d3p",
+          "radio",
+          0
+        ],
+        [
+          "d3c",
+          "radio",
+          0
+        ],
+        [
+          "d4p",
+          "radio",
+          0
+        ],
+        [
+          "d4c",
+          "radio",
+          0
+        ],
+        [
+          "d5p",
+          "radio",
+          0
+        ],
+        [
+          "d5c",
+          "radio",
+          0
+        ],
+        [
+          "d6p",
+          "radio",
+          0
+        ],
+        [
+          "d6c",
+          "radio",
+          0
+        ],
+        [
+          "d7p",
+          "radio",
+          0
+        ],
+        [
+          "d7c",
+          "radio",
+          0
+        ]
+      ],
+      "bands": [
+        [
+          0,
+          "low",
+          "Sem urticária na semana"
+        ],
+        [
+          1,
+          "low",
+          "Urticária bem controlada (1 a 6)"
+        ],
+        [
+          7,
+          "mid",
+          "Atividade leve (7 a 15)"
+        ],
+        [
+          16,
+          "mid",
+          "Atividade moderada (16 a 27)",
+          "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe."
+        ],
+        [
+          28,
+          "high",
+          "Atividade grave (28 a 42)",
+          "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe."
+        ]
+      ]
+    },
+    "areaId": "clinica",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/clinica.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/clinica.php",
+    "sha256": "9dc60f9c51e1db27ff495c69b24d4422a87e42b8c9bc63551aac6a9bc704b2e0",
+    "bytes": 101245
+  },
+  "clinicalValidation": "not-performed"
+}
