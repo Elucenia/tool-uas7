@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-uas7",
   "version": "0.1.0",
-  "description": "UAS7 (Escore de Atividade da Urticária) · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "UAS7 (Escore de Atividade da Urticária) · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
