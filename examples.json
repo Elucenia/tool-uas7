@@ -1,6 +1,25 @@
 [
   {
-    "label": "Semana sem lesões: 0",
+    "id": "uas7",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Semana sem lesões: 0",
+    "originalInput": {
+      "d1p": "0",
+      "d1c": "0",
+      "d2p": "0",
+      "d2c": "0",
+      "d3p": "0",
+      "d3c": "0",
+      "d4p": "0",
+      "d4c": "0",
+      "d5p": "0",
+      "d5c": "0",
+      "d6p": "0",
+      "d6c": "0",
+      "d7p": "0",
+      "d7c": "0"
+    },
     "input": {
       "d1p": "0",
       "d1c": "0",
@@ -22,26 +41,46 @@
       "level": "low",
       "verdict": "Sem urticária"
     },
+    "recordedResult": {
+      "main": [
+        "0",
+        "de 42"
+      ],
+      "label": "UAS7",
+      "raw": {
+        "score": 0
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "uas7",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
     "originalInput": {
-      "d1p": "0",
+      "d1p": "1",
       "d1c": "0",
-      "d2p": "0",
-      "d2c": "0",
+      "d2p": "1",
+      "d2c": "1",
       "d3p": "0",
       "d3c": "0",
-      "d4p": "0",
-      "d4c": "0",
+      "d4p": "1",
+      "d4c": "1",
       "d5p": "0",
       "d5c": "0",
       "d6p": "0",
-      "d6c": "0",
+      "d6c": "1",
       "d7p": "0",
       "d7c": "0"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
     "input": {
       "d1p": "1",
       "d1c": "0",
@@ -63,26 +102,46 @@
       "level": "low",
       "verdict": "bem controlada"
     },
-    "originalInput": {
-      "d1p": "1",
-      "d1c": "0",
-      "d2p": "1",
-      "d2c": "1",
-      "d3p": "0",
-      "d3c": "0",
-      "d4p": "1",
-      "d4c": "1",
-      "d5p": "0",
-      "d5c": "0",
-      "d6p": "0",
-      "d6c": "1",
-      "d7p": "0",
-      "d7c": "0"
+    "recordedResult": {
+      "main": [
+        "6",
+        "de 42"
+      ],
+      "label": "UAS7",
+      "raw": {
+        "score": 6
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+    "id": "uas7",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+    "originalInput": {
+      "d1p": "2",
+      "d1c": "1",
+      "d2p": "2",
+      "d2c": "1",
+      "d3p": "2",
+      "d3c": "1",
+      "d4p": "2",
+      "d4c": "1",
+      "d5p": "2",
+      "d5c": "1",
+      "d6p": "2",
+      "d6c": "1",
+      "d7p": "2",
+      "d7c": "1"
+    },
     "input": {
       "d1p": "2",
       "d1c": "1",
@@ -104,26 +163,46 @@
       "level": "mid",
       "verdict": "moderada"
     },
-    "originalInput": {
-      "d1p": "2",
-      "d1c": "1",
-      "d2p": "2",
-      "d2c": "1",
-      "d3p": "2",
-      "d3c": "1",
-      "d4p": "2",
-      "d4c": "1",
-      "d5p": "2",
-      "d5c": "1",
-      "d6p": "2",
-      "d6c": "1",
-      "d7p": "2",
-      "d7c": "1"
+    "recordedResult": {
+      "main": [
+        "21",
+        "de 42"
+      ],
+      "label": "UAS7",
+      "raw": {
+        "score": 21
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+    "id": "uas7",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+    "originalInput": {
+      "d1p": "3",
+      "d1c": "2",
+      "d2p": "3",
+      "d2c": "2",
+      "d3p": "3",
+      "d3c": "2",
+      "d4p": "3",
+      "d4c": "2",
+      "d5p": "3",
+      "d5c": "2",
+      "d6p": "3",
+      "d6c": "2",
+      "d7p": "3",
+      "d7c": "2"
+    },
     "input": {
       "d1p": "3",
       "d1c": "2",
@@ -145,22 +224,23 @@
       "level": "high",
       "verdict": "grave"
     },
-    "originalInput": {
-      "d1p": "3",
-      "d1c": "2",
-      "d2p": "3",
-      "d2c": "2",
-      "d3p": "3",
-      "d3c": "2",
-      "d4p": "3",
-      "d4c": "2",
-      "d5p": "3",
-      "d5c": "2",
-      "d6p": "3",
-      "d6c": "2",
-      "d7p": "3",
-      "d7c": "2"
+    "recordedResult": {
+      "main": [
+        "35",
+        "de 42"
+      ],
+      "label": "UAS7",
+      "raw": {
+        "score": 35
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

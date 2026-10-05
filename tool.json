@@ -5,11 +5,11 @@
     "short": "Atividade da urticária crônica em 7 dias",
     "desc": "Calcule o UAS7, o escore de atividade da urticária crônica espontânea: urticas e prurido registrados por 7 dias, com as faixas de gravidade.",
     "lead": "Mede a atividade da urticária crônica espontânea pela soma diária de urticas e prurido, registrada pelo paciente durante 7 dias seguidos.",
+    "kind": "Escore",
     "spec": [
       "alergia-e-imunologia",
       "dermatologia"
     ],
-    "tier": 1,
     "fields": [
       [
         "d1p",
@@ -20,7 +20,7 @@
             "0": "Nenhuma",
             "1": "&lt; 20",
             "2": "20 a 50",
-            "3": "&gt; 50"
+            "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
           }
         }
       ],
@@ -31,9 +31,9 @@
         {
           "opts": {
             "0": "Ausente",
-            "1": "Leve",
-            "2": "Moderado",
-            "3": "Intenso"
+            "1": "Leve (presente, mas não incômodo ou perturbador)",
+            "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+            "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
           }
         }
       ],
@@ -46,7 +46,7 @@
             "0": "Nenhuma",
             "1": "&lt; 20",
             "2": "20 a 50",
-            "3": "&gt; 50"
+            "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
           }
         }
       ],
@@ -57,9 +57,9 @@
         {
           "opts": {
             "0": "Ausente",
-            "1": "Leve",
-            "2": "Moderado",
-            "3": "Intenso"
+            "1": "Leve (presente, mas não incômodo ou perturbador)",
+            "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+            "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
           }
         }
       ],
@@ -72,7 +72,7 @@
             "0": "Nenhuma",
             "1": "&lt; 20",
             "2": "20 a 50",
-            "3": "&gt; 50"
+            "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
           }
         }
       ],
@@ -83,9 +83,9 @@
         {
           "opts": {
             "0": "Ausente",
-            "1": "Leve",
-            "2": "Moderado",
-            "3": "Intenso"
+            "1": "Leve (presente, mas não incômodo ou perturbador)",
+            "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+            "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
           }
         }
       ],
@@ -98,7 +98,7 @@
             "0": "Nenhuma",
             "1": "&lt; 20",
             "2": "20 a 50",
-            "3": "&gt; 50"
+            "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
           }
         }
       ],
@@ -109,9 +109,9 @@
         {
           "opts": {
             "0": "Ausente",
-            "1": "Leve",
-            "2": "Moderado",
-            "3": "Intenso"
+            "1": "Leve (presente, mas não incômodo ou perturbador)",
+            "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+            "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
           }
         }
       ],
@@ -124,7 +124,7 @@
             "0": "Nenhuma",
             "1": "&lt; 20",
             "2": "20 a 50",
-            "3": "&gt; 50"
+            "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
           }
         }
       ],
@@ -135,9 +135,9 @@
         {
           "opts": {
             "0": "Ausente",
-            "1": "Leve",
-            "2": "Moderado",
-            "3": "Intenso"
+            "1": "Leve (presente, mas não incômodo ou perturbador)",
+            "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+            "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
           }
         }
       ],
@@ -150,7 +150,7 @@
             "0": "Nenhuma",
             "1": "&lt; 20",
             "2": "20 a 50",
-            "3": "&gt; 50"
+            "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
           }
         }
       ],
@@ -161,9 +161,9 @@
         {
           "opts": {
             "0": "Ausente",
-            "1": "Leve",
-            "2": "Moderado",
-            "3": "Intenso"
+            "1": "Leve (presente, mas não incômodo ou perturbador)",
+            "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+            "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
           }
         }
       ],
@@ -176,7 +176,7 @@
             "0": "Nenhuma",
             "1": "&lt; 20",
             "2": "20 a 50",
-            "3": "&gt; 50"
+            "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
           }
         }
       ],
@@ -187,80 +187,14 @@
         {
           "opts": {
             "0": "Ausente",
-            "1": "Leve",
-            "2": "Moderado",
-            "3": "Intenso"
+            "1": "Leve (presente, mas não incômodo ou perturbador)",
+            "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+            "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
           }
         }
       ]
     ],
-    "score": {
-      "label": "UAS7",
-      "unit": "de 42",
-      "bands": [
-        [
-          0,
-          "low",
-          "Sem urticária na semana"
-        ],
-        [
-          1,
-          "low",
-          "Urticária bem controlada (1 a 6)"
-        ],
-        [
-          7,
-          "mid",
-          "Atividade leve (7 a 15)"
-        ],
-        [
-          16,
-          "mid",
-          "Atividade moderada (16 a 27)",
-          "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe."
-        ],
-        [
-          28,
-          "high",
-          "Atividade grave (28 a 42)",
-          "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe."
-        ]
-      ]
-    },
     "formula": "<p>A cada dia (24 horas), o paciente registra:</p><ul><li><strong>Urticas:</strong> 0 = nenhuma; 1 = &lt; 20; 2 = 20 a 50; 3 = &gt; 50 (ou grandes áreas confluentes).</li><li><strong>Prurido:</strong> 0 = ausente; 1 = leve (presente, não incomoda); 2 = moderado (incomoda, sem atrapalhar atividades ou sono); 3 = intenso (atrapalha atividades ou sono).</li></ul><p>UAS diário = 0 a 6. <strong>UAS7</strong> = soma de 7 dias consecutivos (0 a 42).</p>",
-    "table": [
-      [
-        "UAS7",
-        "Atividade"
-      ],
-      [
-        "0",
-        "Sem urticária"
-      ],
-      [
-        "1 a 6",
-        "Bem controlada"
-      ],
-      [
-        "7 a 15",
-        "Leve"
-      ],
-      [
-        "16 a 27",
-        "Moderada"
-      ],
-      [
-        "28 a 42",
-        "Grave"
-      ]
-    ],
-    "table_note": "Faixas de Stull et al. (2017), adotadas pela diretriz internacional de urticária.",
-    "tips": [
-      "O registro deve ser prospectivo, feito pelo próprio paciente uma vez por dia: não reconstrua a semana de memória na consulta.",
-      "Vale para urticária crônica espontânea; nas urticárias induzidas (dermografismo, frio, pressão), use testes de provocação.",
-      "Angioedema não entra no UAS7: se presente, registre-o com o AAS (Angioedema Activity Score).",
-      "Use o UAS7 para acompanhar a resposta: queda de 9,5 a 10,5 pontos é considerada a mínima diferença clinicamente importante."
-    ],
     "sources": [
       [
         "Młynek A et al. How to assess disease activity in patients with chronic urticaria? Allergy, 2008.",
@@ -373,113 +307,6 @@
         }
       ]
     ],
-    "kind": "Escore",
-    "config": {
-      "unit": "de 42",
-      "label": "UAS7",
-      "fields": [
-        [
-          "d1p",
-          "radio",
-          0
-        ],
-        [
-          "d1c",
-          "radio",
-          0
-        ],
-        [
-          "d2p",
-          "radio",
-          0
-        ],
-        [
-          "d2c",
-          "radio",
-          0
-        ],
-        [
-          "d3p",
-          "radio",
-          0
-        ],
-        [
-          "d3c",
-          "radio",
-          0
-        ],
-        [
-          "d4p",
-          "radio",
-          0
-        ],
-        [
-          "d4c",
-          "radio",
-          0
-        ],
-        [
-          "d5p",
-          "radio",
-          0
-        ],
-        [
-          "d5c",
-          "radio",
-          0
-        ],
-        [
-          "d6p",
-          "radio",
-          0
-        ],
-        [
-          "d6c",
-          "radio",
-          0
-        ],
-        [
-          "d7p",
-          "radio",
-          0
-        ],
-        [
-          "d7c",
-          "radio",
-          0
-        ]
-      ],
-      "bands": [
-        [
-          0,
-          "low",
-          "Sem urticária na semana"
-        ],
-        [
-          1,
-          "low",
-          "Urticária bem controlada (1 a 6)"
-        ],
-        [
-          7,
-          "mid",
-          "Atividade leve (7 a 15)"
-        ],
-        [
-          16,
-          "mid",
-          "Atividade moderada (16 a 27)",
-          "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe."
-        ],
-        [
-          28,
-          "high",
-          "Atividade grave (28 a 42)",
-          "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe."
-        ]
-      ]
-    },
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -488,17 +315,990 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T19:08:25.652Z",
+      "total": 2012,
+      "passed": 2012,
+      "sourceRowCount": 2012,
+      "uniqueApiInputCount": 2012,
+      "sourceContextCount": 2012,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "5ac2a677c5bfbe2e52599c9dd39e98845d1cc8c6cc5b11228d0c949b99ffb8bd",
+        "total": 2012,
+        "bankRowCount": 2012,
+        "uniqueApiInputCount": 2012,
+        "sourceContextCount": 2012,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/ra-uas-independent-expectations-final27.json",
+            "sha256": "ea0b90049060bd52d58841a62e7b37b93e00d17fc7de6c4e9997e9c5147d3e91"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/ra-uas-source-comparison-final27.json",
+          "sha256": "78ed0d7465048eb0179f323b1ea4421cfb78afa4bf10d8634ed3a76a04a04fb2"
+        },
+        "packagingRequirement": "After source27 composition, rebind exact calculator SHA for documented text-only edits and replay the full scope before fresh packaging."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "sourceRows": 2012,
+        "uniqueApiInputs": 2012,
+        "duplicateRows": 0,
+        "expectationAudit": {
+          "file": "reports/review-20261003/ra-uas-independent-expectations-final27.json",
+          "sha256": "ea0b90049060bd52d58841a62e7b37b93e00d17fc7de6c4e9997e9c5147d3e91"
+        }
+      },
+      "scope": "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings.",
+      "sources": [
+        {
+          "id": "uas7",
+          "declaredEdition": "UAS 7/Mlynek 2008:7 dias UAS 0–6, total 0–42; limiares EAACIGA 2 LENEuro Gui Derm APAAACI 2022",
+          "readRecords": [
+            {
+              "id": "uas7",
+              "url": "https://ucare-network.com/wp-content/uploads/2022/08/471.-Zuberbier-et-al.-Urticaria-GL-definition-classification-OA-Allergy-2022.pdf",
+              "file": "uas7-ucare-guideline-final27.pdf",
+              "sha256": "b7524d5c453bf94efdf4fdfa8a9b266bcb4fb5af3929494a14b57fdd34f164c8",
+              "edition": "Zuberbier et al, Allergy77,2022; first online2021,DOI10.1111/all.15090. This is the2022Table10 variant, not proof of full2008instrument.",
+              "directlyRead": [
+                {
+                  "page": 18,
+                  "printedPage": 751,
+                  "section": "Table10,UAS7note and adjacent once-daily24h/seven-consecutive-days prose",
+                  "image": "uas7-ucare-guideline-final27-p18.png",
+                  "sha256": "ad8ad812b083787d010001924e4f0cdb90e4b879bd297eddac4fbaaf54dd94e2"
+                }
+              ],
+              "officialWebChecked": "https://onlinelibrary.wiley.com/doi/10.1111/all.15090 Table10 and adjacent UAS7 prose; same table, not Table8.",
+              "independentEquation": "Sum14assigneddailycomponentpoints,each0,1,2,3; seven days, two components per day, daily0..6, total0..42.",
+              "sourceContext": [
+                "Self-evaluation once daily covering24hours for seven consecutive days; CSU with wheals.",
+                "Wheal highestcategory includes >50/24h OR large confluent areas. Pruritus grading refers to nuisance/interference with dailyactivity or sleep.",
+                "Angioedema requires its separateAAS; UAS7 alone does not measure it."
+              ],
+              "unapproved": [
+                "Currentselectoronly says >50; formula documents confluent areas but selector wording needs bounded localizedsource27 correction.",
+                "No clinical assessment or activitycategory cutoffs validated; sourceTable10 does not supply2017categorycutoffs.",
+                "GA2LENcopyright explicitly noted. ArticleCCBY-NC-SA4.0 does not establish separateinstrumentrights or grantedELUCENIApermission.",
+                "This finitebank is not exhaustive over all4^14weeklypatterns."
+              ]
+            }
+          ],
+          "sourceReview": {
+            "file": "reports/review-20261003/ra-uas-primary-review-final27.json",
+            "sha256": "8c23cba031ce442e829af7b1860aafff2ba55645015b87e6fa2131dec306ced3"
+          },
+          "sourceComponent": "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings."
+        }
+      ],
+      "evidencePath": "reports/review-20261003/ra-uas-source-comparison-final27.json",
+      "evidenceSha256": "78ed0d7465048eb0179f323b1ea4421cfb78afa4bf10d8634ed3a76a04a04fb2",
+      "independentPeer": {
+        "status": "passed",
+        "scope": "Independent reading of named source sections and own expectation derivation/execution. Bank/metadata packaging needs a separate technical peer. No human clinical, translation or rights approval.",
+        "peer": {
+          "file": "reports/review-20261003/ra-uas-source-independent-review-western-final27.json",
+          "sha256": "1965d413e9b3549c1af4f5de65ecba43f3cd43a3027995361fbccb5e4cfeadcb"
+        },
+        "peerScope": "Independent named primary-table reading plus own Python integer expectations frozen before implementation import/root expected values. Root-selected INPUTS only; three Node and same-source browser-compatible VM mirrors. Total-only scope, not clinical assessment/classification or instrument approval.",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "metadataPackagingPeer": {
+        "status": "passed",
+        "scope": "Bounded independent review of the original source bank and its metadata/helper. Prospective code rebinding is separately re-executed below and requires the final composition peer; no human approval inferred.",
+        "peer": {
+          "file": "reports/review-20261003/nine-source-bank-metadata-independent-review-western-final27.json",
+          "sha256": "e762e0f425c9251081547c86e4f1b80b86839a21223fd47712ebde9b1335a978"
+        },
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "actualAdapterExecutions": 6036,
+      "actualVmExecutions": 6036,
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/uas7/calculator.js",
+          "sha256": "e8bdd2d49eb222344a5be3cb85abf6ea62b28e49dca0b31f4306be868901ae61"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/uas7/calculator.js",
+          "sha256": "e8bdd2d49eb222344a5be3cb85abf6ea62b28e49dca0b31f4306be868901ae61"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/uas7/calculator.js",
+          "sha256": "e8bdd2d49eb222344a5be3cb85abf6ea62b28e49dca0b31f4306be868901ae61"
+        }
+      ],
+      "qualifications": [
+        "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings.",
+        "Original source conflicts, rights conditions, population and clinical limitations remain in the hashed primary review and peer. They are not marked approved.",
+        "Four inline records are a subset of the complete hashed downloadable bank. Every862historicalfixture and method field/formula/version is unchanged by this evidence-only candidate."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "prospectiveSource27Bindings": [
+        {
+          "file": "apps/website/private/tool-code/uas7/calculator.js",
+          "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/uas7/calculator.js",
+          "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/uas7/calculator.js",
+          "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+        }
+      ],
+      "prospectiveSource27Replay": {
+        "file": "reports/review-20261003/source27-complete-bank-current-replay-root-r3.json",
+        "sha256": "44c601f27d3d5051a8d55a581381112b58df36c7c4b6cfd24ce1249b263d6a2b"
+      },
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "UAS 7/Mlynek 2008:7 dias UAS 0–6, total 0–42; limiares EAACIGA 2 LENEuro Gui Derm APAAACI 2022",
+    "implementationVersion": "uas7@native-2026-10-04+28bc9ad8d81f",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/18445192/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "A cada dia (24 horas), o paciente registra: Urticas: 0 = nenhuma; 1 = < 20; 2 = 20 a 50; 3 = > 50 (ou grandes áreas confluentes). Prurido: 0 = ausente; 1 = leve (presente, não incomoda); 2 = moderado (incomoda, sem atrapalhar atividades ou sono); 3 = intenso (atrapalha atividades ou sono). UAS diário = 0 a 6. UAS7 = soma de 7 dias consecutivos (0 a 42).",
+      "inputContract": {
+        "fields": [
+          [
+            "d1p",
+            "Dia 1 · urticas (pápulas) em 24 h",
+            "radio",
+            {
+              "opts": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+              }
+            }
+          ],
+          [
+            "d1c",
+            "Dia 1 · prurido",
+            "radio",
+            {
+              "opts": {
+                "0": "Ausente",
+                "1": "Leve (presente, mas não incômodo ou perturbador)",
+                "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+                "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+              }
+            }
+          ],
+          [
+            "d2p",
+            "Dia 2 · urticas (pápulas) em 24 h",
+            "radio",
+            {
+              "opts": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+              }
+            }
+          ],
+          [
+            "d2c",
+            "Dia 2 · prurido",
+            "radio",
+            {
+              "opts": {
+                "0": "Ausente",
+                "1": "Leve (presente, mas não incômodo ou perturbador)",
+                "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+                "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+              }
+            }
+          ],
+          [
+            "d3p",
+            "Dia 3 · urticas (pápulas) em 24 h",
+            "radio",
+            {
+              "opts": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+              }
+            }
+          ],
+          [
+            "d3c",
+            "Dia 3 · prurido",
+            "radio",
+            {
+              "opts": {
+                "0": "Ausente",
+                "1": "Leve (presente, mas não incômodo ou perturbador)",
+                "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+                "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+              }
+            }
+          ],
+          [
+            "d4p",
+            "Dia 4 · urticas (pápulas) em 24 h",
+            "radio",
+            {
+              "opts": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+              }
+            }
+          ],
+          [
+            "d4c",
+            "Dia 4 · prurido",
+            "radio",
+            {
+              "opts": {
+                "0": "Ausente",
+                "1": "Leve (presente, mas não incômodo ou perturbador)",
+                "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+                "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+              }
+            }
+          ],
+          [
+            "d5p",
+            "Dia 5 · urticas (pápulas) em 24 h",
+            "radio",
+            {
+              "opts": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+              }
+            }
+          ],
+          [
+            "d5c",
+            "Dia 5 · prurido",
+            "radio",
+            {
+              "opts": {
+                "0": "Ausente",
+                "1": "Leve (presente, mas não incômodo ou perturbador)",
+                "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+                "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+              }
+            }
+          ],
+          [
+            "d6p",
+            "Dia 6 · urticas (pápulas) em 24 h",
+            "radio",
+            {
+              "opts": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+              }
+            }
+          ],
+          [
+            "d6c",
+            "Dia 6 · prurido",
+            "radio",
+            {
+              "opts": {
+                "0": "Ausente",
+                "1": "Leve (presente, mas não incômodo ou perturbador)",
+                "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+                "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+              }
+            }
+          ],
+          [
+            "d7p",
+            "Dia 7 · urticas (pápulas) em 24 h",
+            "radio",
+            {
+              "opts": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+              }
+            }
+          ],
+          [
+            "d7c",
+            "Dia 7 · prurido",
+            "radio",
+            {
+              "opts": {
+                "0": "Ausente",
+                "1": "Leve (presente, mas não incômodo ou perturbador)",
+                "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+                "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+              }
+            }
+          ]
+        ],
+        "hash": "dd9f9b6d6236fe6ae95ea1b1b12ad9e6ebba2308c056e0ffb3ab65e282b49186"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Młynek A et al. How to assess disease activity in patients with chronic urticaria? Allergy, 2008.",
+          "url": "https://doi.org/10.1111/j.1398-9995.2008.01726.x",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "How to assess disease activity in patients with chronic urticaria?",
+            "year": "2008",
+            "firstPublicationDate": "2008-06-01",
+            "doi": "10.1111/j.1398-9995.2008.01726.x",
+            "pmid": "18445192",
+            "journal": "Allergy",
+            "authors": "Młynek A, Zalewska-Janowska A, Martus P, Staubach P, Zuberbier T, Maurer M."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/18445192/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "dc5d06f001a1a4e5b5efa0747f930cca4f400f6a6408b02cece218618d7615c0",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Stull D et al. Analysis of disease activity categories in chronic spontaneous/idiopathic urticaria. Br J Dermatol, 2017.",
+          "url": "https://doi.org/10.1111/bjd.15454",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Analysis of disease activity categories in chronic spontaneous/idiopathic urticaria.",
+            "year": "2017",
+            "firstPublicationDate": "2017-09-24",
+            "doi": "10.1111/bjd.15454",
+            "pmid": "28295198",
+            "journal": "The British journal of dermatology",
+            "authors": "Stull D, McBride D, Tian H, Gimenez Arnau A, Maurer M, Marsland A, Balp MM, Khalil S, Grattan C."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/28295198/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "44d1d3c9690e70a7bf37dfbb2c0319826d4561d249042de5e3ec4cf62d3c8171",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Zuberbier T et al. The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria. Allergy, 2022.",
+          "url": "https://doi.org/10.1111/all.15090",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria.",
+            "year": "2022",
+            "firstPublicationDate": "2021-10-20",
+            "doi": "10.1111/all.15090",
+            "pmid": "34536239",
+            "journal": "Allergy",
+            "authors": "Zuberbier T, Abdul Latiff AH, Abuzakouk M, Aquilina S, Asero R, Baker D, Ballmer-Weber B, Bangert C, Ben-Shoshan M, Bernstein JA, Bindslev-Jensen C, Brockow K, Brzoza Z, Chong Neto HJ, Church MK, Criado PR, Danilycheva IV, Dressler C, Ensina LF, Fonacier L, Gaskins M, Gáspár K, Gelincik A, Giménez-Arnau A, Godse K, Gonçalo M, Grattan C, Grosber M, Hamelmann E, Hébert J, Hide M, Kaplan A, Kapp A, Kessel A, Kocatürk E, Kulthanan K, Larenas-Linnemann D, Lauerma A, Leslie TA, Magerl M, Makris M, Meshkova RY, Metz M, Micallef D, Mortz CG, Nast A, Oude-Elberink H, Pawankar R, Pigatto PD, Ratti Sisa H, Rojo Gutiérrez MI, Saini SS, Schmid-Grendelmeier P, Sekerel BE, Siebenhaar F, Siiskonen H, Soria A, Staubach-Renz P, Stingeni L, Sussman G, Szegedi A, Thomsen SF, Vadasz Z, Vestergaard C, Wedi B, Zhao Z, Maurer M."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/34536239/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "8db7c36348b45d0f39694a87a122d50291334626e9beecfbcf903687d4a59d45",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T19:08:25.652Z",
+        "total": 2012,
+        "passed": 2012,
+        "sourceRowCount": 2012,
+        "uniqueApiInputCount": 2012,
+        "sourceContextCount": 2012,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "5ac2a677c5bfbe2e52599c9dd39e98845d1cc8c6cc5b11228d0c949b99ffb8bd",
+          "total": 2012,
+          "bankRowCount": 2012,
+          "uniqueApiInputCount": 2012,
+          "sourceContextCount": 2012,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/ra-uas-independent-expectations-final27.json",
+              "sha256": "ea0b90049060bd52d58841a62e7b37b93e00d17fc7de6c4e9997e9c5147d3e91"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/ra-uas-source-comparison-final27.json",
+            "sha256": "78ed0d7465048eb0179f323b1ea4421cfb78afa4bf10d8634ed3a76a04a04fb2"
+          },
+          "packagingRequirement": "After source27 composition, rebind exact calculator SHA for documented text-only edits and replay the full scope before fresh packaging."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "sourceRows": 2012,
+          "uniqueApiInputs": 2012,
+          "duplicateRows": 0,
+          "expectationAudit": {
+            "file": "reports/review-20261003/ra-uas-independent-expectations-final27.json",
+            "sha256": "ea0b90049060bd52d58841a62e7b37b93e00d17fc7de6c4e9997e9c5147d3e91"
+          }
+        },
+        "scope": "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings.",
+        "sources": [
+          {
+            "id": "uas7",
+            "declaredEdition": "UAS 7/Mlynek 2008:7 dias UAS 0–6, total 0–42; limiares EAACIGA 2 LENEuro Gui Derm APAAACI 2022",
+            "readRecords": [
+              {
+                "id": "uas7",
+                "url": "https://ucare-network.com/wp-content/uploads/2022/08/471.-Zuberbier-et-al.-Urticaria-GL-definition-classification-OA-Allergy-2022.pdf",
+                "file": "uas7-ucare-guideline-final27.pdf",
+                "sha256": "b7524d5c453bf94efdf4fdfa8a9b266bcb4fb5af3929494a14b57fdd34f164c8",
+                "edition": "Zuberbier et al, Allergy77,2022; first online2021,DOI10.1111/all.15090. This is the2022Table10 variant, not proof of full2008instrument.",
+                "directlyRead": [
+                  {
+                    "page": 18,
+                    "printedPage": 751,
+                    "section": "Table10,UAS7note and adjacent once-daily24h/seven-consecutive-days prose",
+                    "image": "uas7-ucare-guideline-final27-p18.png",
+                    "sha256": "ad8ad812b083787d010001924e4f0cdb90e4b879bd297eddac4fbaaf54dd94e2"
+                  }
+                ],
+                "officialWebChecked": "https://onlinelibrary.wiley.com/doi/10.1111/all.15090 Table10 and adjacent UAS7 prose; same table, not Table8.",
+                "independentEquation": "Sum14assigneddailycomponentpoints,each0,1,2,3; seven days, two components per day, daily0..6, total0..42.",
+                "sourceContext": [
+                  "Self-evaluation once daily covering24hours for seven consecutive days; CSU with wheals.",
+                  "Wheal highestcategory includes >50/24h OR large confluent areas. Pruritus grading refers to nuisance/interference with dailyactivity or sleep.",
+                  "Angioedema requires its separateAAS; UAS7 alone does not measure it."
+                ],
+                "unapproved": [
+                  "Currentselectoronly says >50; formula documents confluent areas but selector wording needs bounded localizedsource27 correction.",
+                  "No clinical assessment or activitycategory cutoffs validated; sourceTable10 does not supply2017categorycutoffs.",
+                  "GA2LENcopyright explicitly noted. ArticleCCBY-NC-SA4.0 does not establish separateinstrumentrights or grantedELUCENIApermission.",
+                  "This finitebank is not exhaustive over all4^14weeklypatterns."
+                ]
+              }
+            ],
+            "sourceReview": {
+              "file": "reports/review-20261003/ra-uas-primary-review-final27.json",
+              "sha256": "8c23cba031ce442e829af7b1860aafff2ba55645015b87e6fa2131dec306ced3"
+            },
+            "sourceComponent": "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings."
+          }
+        ],
+        "evidencePath": "reports/review-20261003/ra-uas-source-comparison-final27.json",
+        "evidenceSha256": "78ed0d7465048eb0179f323b1ea4421cfb78afa4bf10d8634ed3a76a04a04fb2",
+        "independentPeer": {
+          "status": "passed",
+          "scope": "Independent reading of named source sections and own expectation derivation/execution. Bank/metadata packaging needs a separate technical peer. No human clinical, translation or rights approval.",
+          "peer": {
+            "file": "reports/review-20261003/ra-uas-source-independent-review-western-final27.json",
+            "sha256": "1965d413e9b3549c1af4f5de65ecba43f3cd43a3027995361fbccb5e4cfeadcb"
+          },
+          "peerScope": "Independent named primary-table reading plus own Python integer expectations frozen before implementation import/root expected values. Root-selected INPUTS only; three Node and same-source browser-compatible VM mirrors. Total-only scope, not clinical assessment/classification or instrument approval.",
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "metadataPackagingPeer": {
+          "status": "passed",
+          "scope": "Bounded independent review of the original source bank and its metadata/helper. Prospective code rebinding is separately re-executed below and requires the final composition peer; no human approval inferred.",
+          "peer": {
+            "file": "reports/review-20261003/nine-source-bank-metadata-independent-review-western-final27.json",
+            "sha256": "e762e0f425c9251081547c86e4f1b80b86839a21223fd47712ebde9b1335a978"
+          },
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "actualAdapterExecutions": 6036,
+        "actualVmExecutions": 6036,
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/uas7/calculator.js",
+            "sha256": "e8bdd2d49eb222344a5be3cb85abf6ea62b28e49dca0b31f4306be868901ae61"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/uas7/calculator.js",
+            "sha256": "e8bdd2d49eb222344a5be3cb85abf6ea62b28e49dca0b31f4306be868901ae61"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/uas7/calculator.js",
+            "sha256": "e8bdd2d49eb222344a5be3cb85abf6ea62b28e49dca0b31f4306be868901ae61"
+          }
+        ],
+        "qualifications": [
+          "Exact sum of previously assigned source component points; clinical rubrics, eligibility, observation, probability, diagnosis, classification and treatment are excluded. See named source sections and independent source findings.",
+          "Original source conflicts, rights conditions, population and clinical limitations remain in the hashed primary review and peer. They are not marked approved.",
+          "Four inline records are a subset of the complete hashed downloadable bank. Every862historicalfixture and method field/formula/version is unchanged by this evidence-only candidate."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "prospectiveSource27Bindings": [
+          {
+            "file": "apps/website/private/tool-code/uas7/calculator.js",
+            "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/uas7/calculator.js",
+            "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/uas7/calculator.js",
+            "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+          }
+        ],
+        "prospectiveSource27Replay": {
+          "file": "reports/review-20261003/source27-complete-bank-current-replay-root-r3.json",
+          "sha256": "44c601f27d3d5051a8d55a581381112b58df36c7c4b6cfd24ce1249b263d6a2b"
+        },
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26",
+      "uas2022SelectorAmendment": {
+        "at": "2026-10-04T19:06:52.620Z",
+        "scope": "Twenty-eight display option strings (four definitions repeated over seven days) bound to2022Table10. No assigned-point code, engine, formula, methodVersion, prior limits/source claims, fixture or clinical category change.",
+        "authoredModule": {
+          "file": "uas7-table10-selector-authored-final27.cjs",
+          "sha256": "79a1eb0f3581a01e8c43e38ba311bb02c35425d52f81027c3e49f1eed720c691"
+        },
+        "source": {
+          "url": "https://ucare-network.com/wp-content/uploads/2022/08/471.-Zuberbier-et-al.-Urticaria-GL-definition-classification-OA-Allergy-2022.pdf",
+          "edition": "Zuberbier et al Allergy77,2022 DOI10.1111/all.15090 (online2021), Table10",
+          "file": "uas7-ucare-guideline-final27.pdf",
+          "sha256": "b7524d5c453bf94efdf4fdfa8a9b266bcb4fb5af3929494a14b57fdd34f164c8",
+          "actuallyRead": "Direct primary PDF reopened and local original p18/printed751 Table10 plus daily24h/seven-consecutive-day adjacent text visually read. Not entire guideline or full2008 edition.",
+          "scope": "Four selector descriptions only, repeated over seven days; assigned-point codes unchanged. No severity-category cutoff, clinical observation/performance or treatment certification.",
+          "rights": "Table10 explicitly attributes UAS copyright to GA2LEN; open access does not establish separate instrument authorization."
+        },
+        "previousInputContract": {
+          "fields": [
+            {
+              "key": "d1p",
+              "label": "Dia 1 · urticas (pápulas) em 24 h",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "&gt; 50"
+              }
+            },
+            {
+              "key": "d1c",
+              "label": "Dia 1 · prurido",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Ausente",
+                "1": "Leve",
+                "2": "Moderado",
+                "3": "Intenso"
+              }
+            },
+            {
+              "key": "d2p",
+              "label": "Dia 2 · urticas (pápulas) em 24 h",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "&gt; 50"
+              }
+            },
+            {
+              "key": "d2c",
+              "label": "Dia 2 · prurido",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Ausente",
+                "1": "Leve",
+                "2": "Moderado",
+                "3": "Intenso"
+              }
+            },
+            {
+              "key": "d3p",
+              "label": "Dia 3 · urticas (pápulas) em 24 h",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "&gt; 50"
+              }
+            },
+            {
+              "key": "d3c",
+              "label": "Dia 3 · prurido",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Ausente",
+                "1": "Leve",
+                "2": "Moderado",
+                "3": "Intenso"
+              }
+            },
+            {
+              "key": "d4p",
+              "label": "Dia 4 · urticas (pápulas) em 24 h",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "&gt; 50"
+              }
+            },
+            {
+              "key": "d4c",
+              "label": "Dia 4 · prurido",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Ausente",
+                "1": "Leve",
+                "2": "Moderado",
+                "3": "Intenso"
+              }
+            },
+            {
+              "key": "d5p",
+              "label": "Dia 5 · urticas (pápulas) em 24 h",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "&gt; 50"
+              }
+            },
+            {
+              "key": "d5c",
+              "label": "Dia 5 · prurido",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Ausente",
+                "1": "Leve",
+                "2": "Moderado",
+                "3": "Intenso"
+              }
+            },
+            {
+              "key": "d6p",
+              "label": "Dia 6 · urticas (pápulas) em 24 h",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "&gt; 50"
+              }
+            },
+            {
+              "key": "d6c",
+              "label": "Dia 6 · prurido",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Ausente",
+                "1": "Leve",
+                "2": "Moderado",
+                "3": "Intenso"
+              }
+            },
+            {
+              "key": "d7p",
+              "label": "Dia 7 · urticas (pápulas) em 24 h",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Nenhuma",
+                "1": "&lt; 20",
+                "2": "20 a 50",
+                "3": "&gt; 50"
+              }
+            },
+            {
+              "key": "d7c",
+              "label": "Dia 7 · prurido",
+              "type": "radio",
+              "optional": false,
+              "options": {
+                "0": "Ausente",
+                "1": "Leve",
+                "2": "Moderado",
+                "3": "Intenso"
+              }
+            }
+          ],
+          "hash": "033da43636208396d98a0313b918e304acfa909e10897fd792abb09097725069"
+        },
+        "previousFieldsSha256": "cc19282f28411cab05dc803738a9dfbe02d1373d35bb0c64f3fd5f260c43d50a",
+        "implementationHashUnchanged": "e8bdd2d49eb222344a5be3cb85abf6ea62b28e49dca0b31f4306be868901ae61",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "rightsApproval": "not-performed",
+        "officialTranslation": false,
+        "fullMethodConformance": false
+      },
+      "previousImplementationHash": "e8bdd2d49eb222344a5be3cb85abf6ea62b28e49dca0b31f4306be868901ae61",
+      "previousInputContract": {
+        "fields": [
+          {
+            "key": "d1p",
+            "label": "Dia 1 · urticas (pápulas) em 24 h",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma",
+              "1": "&lt; 20",
+              "2": "20 a 50",
+              "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+            }
+          },
+          {
+            "key": "d1c",
+            "label": "Dia 1 · prurido",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Leve (presente, mas não incômodo ou perturbador)",
+              "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+              "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+            }
+          },
+          {
+            "key": "d2p",
+            "label": "Dia 2 · urticas (pápulas) em 24 h",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma",
+              "1": "&lt; 20",
+              "2": "20 a 50",
+              "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+            }
+          },
+          {
+            "key": "d2c",
+            "label": "Dia 2 · prurido",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Leve (presente, mas não incômodo ou perturbador)",
+              "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+              "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+            }
+          },
+          {
+            "key": "d3p",
+            "label": "Dia 3 · urticas (pápulas) em 24 h",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma",
+              "1": "&lt; 20",
+              "2": "20 a 50",
+              "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+            }
+          },
+          {
+            "key": "d3c",
+            "label": "Dia 3 · prurido",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Leve (presente, mas não incômodo ou perturbador)",
+              "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+              "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+            }
+          },
+          {
+            "key": "d4p",
+            "label": "Dia 4 · urticas (pápulas) em 24 h",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma",
+              "1": "&lt; 20",
+              "2": "20 a 50",
+              "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+            }
+          },
+          {
+            "key": "d4c",
+            "label": "Dia 4 · prurido",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Leve (presente, mas não incômodo ou perturbador)",
+              "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+              "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+            }
+          },
+          {
+            "key": "d5p",
+            "label": "Dia 5 · urticas (pápulas) em 24 h",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma",
+              "1": "&lt; 20",
+              "2": "20 a 50",
+              "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+            }
+          },
+          {
+            "key": "d5c",
+            "label": "Dia 5 · prurido",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Leve (presente, mas não incômodo ou perturbador)",
+              "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+              "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+            }
+          },
+          {
+            "key": "d6p",
+            "label": "Dia 6 · urticas (pápulas) em 24 h",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma",
+              "1": "&lt; 20",
+              "2": "20 a 50",
+              "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+            }
+          },
+          {
+            "key": "d6c",
+            "label": "Dia 6 · prurido",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Leve (presente, mas não incômodo ou perturbador)",
+              "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+              "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+            }
+          },
+          {
+            "key": "d7p",
+            "label": "Dia 7 · urticas (pápulas) em 24 h",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Nenhuma",
+              "1": "&lt; 20",
+              "2": "20 a 50",
+              "3": "> 50 em 24 h ou grandes áreas confluentes de urticas"
+            }
+          },
+          {
+            "key": "d7c",
+            "label": "Dia 7 · prurido",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Ausente",
+              "1": "Leve (presente, mas não incômodo ou perturbador)",
+              "2": "Moderado (incômodo, mas sem interferir nas atividades diárias habituais ou no sono)",
+              "3": "Intenso (prurido intenso, suficientemente incômodo para interferir nas atividades diárias habituais ou no sono)"
+            }
+          }
+        ],
+        "hash": "d0f49643cd1d04b5dff8b29d3cb3d1dd6c2904132d875bb9f3e5f327279212af"
+      }
+    },
+    "limits": "O UAS monitora atividade da urticária crônica por número de urticas e prurido registrados ao longo de dias. Não representa todas as manifestações, como angioedema, nem substitui avaliação de qualidade de vida. UAS7 e categorias posteriores devem seguir sua definição temporal e fonte próprias.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.162Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Resumo não confirma todos os cortes de categoria, faixa etária ou variante de sete dias da diretriz 2022. Não mede diretamente angioedema pelo UAS."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/uas7/calculator.js",
+    "bytes": 8254,
+    "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "63627b71d2f10fd908f7bb55e22803a6f1b2897939ad856b0682fa60a96e356a",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "d33548f6d196c8cee4f18445b2570fadf28e3c0c4a7b9d3bdebb906518260df1",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "d33548f6d196c8cee4f18445b2570fadf28e3c0c4a7b9d3bdebb906518260df1",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

@@ -1,0 +1,402 @@
+{
+  "id": "uas7",
+  "at": "2026-10-05T17:30:13.578Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/uas7/calculator.js",
+    "bytes": 8254,
+    "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+  },
+  "cases": [
+    {
+      "name": "Semana sem lesões: 0",
+      "input": {
+        "d1p": "0",
+        "d1c": "0",
+        "d2p": "0",
+        "d2c": "0",
+        "d3p": "0",
+        "d3c": "0",
+        "d4p": "0",
+        "d4c": "0",
+        "d5p": "0",
+        "d5c": "0",
+        "d6p": "0",
+        "d6c": "0",
+        "d7p": "0",
+        "d7c": "0"
+      },
+      "obtained": {
+        "id": "uas7",
+        "main": [
+          "0",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "raw": {
+          "score": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 0,
+          "obtained": 0,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 0,
+          "obtained": 0,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "0",
+          "obtained": "0",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "de 42",
+          "obtained": "de 42",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+      "input": {
+        "d1p": "1",
+        "d1c": "0",
+        "d2p": "1",
+        "d2c": "1",
+        "d3p": "0",
+        "d3c": "0",
+        "d4p": "1",
+        "d4c": "1",
+        "d5p": "0",
+        "d5c": "0",
+        "d6p": "0",
+        "d6c": "1",
+        "d7p": "0",
+        "d7c": "0"
+      },
+      "obtained": {
+        "id": "uas7",
+        "main": [
+          "6",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "raw": {
+          "score": 6
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 6,
+          "obtained": 6,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 6,
+          "obtained": 6,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "6",
+          "obtained": "6",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "de 42",
+          "obtained": "de 42",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+      "input": {
+        "d1p": "2",
+        "d1c": "1",
+        "d2p": "2",
+        "d2c": "1",
+        "d3p": "2",
+        "d3c": "1",
+        "d4p": "2",
+        "d4c": "1",
+        "d5p": "2",
+        "d5c": "1",
+        "d6p": "2",
+        "d6c": "1",
+        "d7p": "2",
+        "d7c": "1"
+      },
+      "obtained": {
+        "id": "uas7",
+        "main": [
+          "21",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "raw": {
+          "score": 21
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 21,
+          "obtained": 21,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 21,
+          "obtained": 21,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "21",
+          "obtained": "21",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "de 42",
+          "obtained": "de 42",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+      "input": {
+        "d1p": "3",
+        "d1c": "2",
+        "d2p": "3",
+        "d2c": "2",
+        "d3p": "3",
+        "d3c": "2",
+        "d4p": "3",
+        "d4c": "2",
+        "d5p": "3",
+        "d5c": "2",
+        "d6p": "3",
+        "d6c": "2",
+        "d7p": "3",
+        "d7c": "2"
+      },
+      "obtained": {
+        "id": "uas7",
+        "main": [
+          "35",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "raw": {
+          "score": 35
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 35,
+          "obtained": 35,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 35,
+          "obtained": 35,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "35",
+          "obtained": "35",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "de 42",
+          "obtained": "de 42",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        },
+        {
+          "key": "verdict",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 46,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}
