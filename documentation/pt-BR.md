@@ -187,3 +187,31 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Sem urticária na semana
+
+
+### 2
+
+Urticária bem controlada (1 a 6)
+
+
+### 3
+
+Atividade moderada (16 a 27)
+
+Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe.
+
+
+### 4
+
+Atividade grave (28 a 42)
+
+Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe.
+

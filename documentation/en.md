@@ -187,3 +187,31 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+No urticaria in the week
+
+
+### 2
+
+Well-controlled urticaria (1 to 6)
+
+
+### 3
+
+Moderate activity (16 to 27)
+
+Reassess treatment: increase the antihistamine (up to 4 times the dose) and, if not controlled, omalizumab.
+
+
+### 4
+
+Severe activity (28 to 42)
+
+Reassess treatment: increase the antihistamine (up to 4 times the dose) and, if not controlled, omalizumab.
+

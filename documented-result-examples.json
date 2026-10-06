@@ -1,0 +1,607 @@
+{
+  "id": "uas7",
+  "implementationVersion": "uas7@native-2026-10-05+6660ac50033c",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Sem urticária na semana",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Urticária bem controlada (1 a 6)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Atividade moderada (16 a 27)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Atividade grave (28 a 42)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "No urticaria in the week",
+            "locale": "en",
+            "template": "documented-authored-91cc607fed2fcd232596"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Well-controlled urticaria (1 to 6)",
+            "locale": "en",
+            "template": "documented-authored-7ba233b40014f35e7dc7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Moderate activity (16 to 27)",
+            "locale": "en",
+            "template": "documented-authored-2a70929211a9a00d4f52"
+          },
+          "note": {
+            "text": "Reassess treatment: increase the antihistamine (up to 4 times the dose) and, if not controlled, omalizumab.",
+            "locale": "en",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Severe activity (28 to 42)",
+            "locale": "en",
+            "template": "documented-authored-c2211ee0864a6a21210b"
+          },
+          "note": {
+            "text": "Reassess treatment: increase the antihistamine (up to 4 times the dose) and, if not controlled, omalizumab.",
+            "locale": "en",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Sin urticaria en la semana",
+            "locale": "es",
+            "template": "documented-authored-91cc607fed2fcd232596"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Urticaria bien controlada (1 a 6)",
+            "locale": "es",
+            "template": "documented-authored-7ba233b40014f35e7dc7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Actividad moderada (16 a 27)",
+            "locale": "es",
+            "template": "documented-authored-2a70929211a9a00d4f52"
+          },
+          "note": {
+            "text": "Reevaluar el tratamiento: aumentar el antihistamínico (hasta 4 veces la dosis) y, si no se controla, omalizumab.",
+            "locale": "es",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Actividad grave (28 a 42)",
+            "locale": "es",
+            "template": "documented-authored-c2211ee0864a6a21210b"
+          },
+          "note": {
+            "text": "Reevaluar el tratamiento: aumentar el antihistamínico (hasta 4 veces la dosis) y, si no se controla, omalizumab.",
+            "locale": "es",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Aucune urticaire pendant la semaine",
+            "locale": "fr",
+            "template": "documented-authored-91cc607fed2fcd232596"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Urticaire bien contrôlée (1 à 6)",
+            "locale": "fr",
+            "template": "documented-authored-7ba233b40014f35e7dc7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Activité modérée (16 à 27)",
+            "locale": "fr",
+            "template": "documented-authored-2a70929211a9a00d4f52"
+          },
+          "note": {
+            "text": "Réévaluer le traitement : augmenter l’antihistaminique (jusqu’à 4 fois la dose) et, si le contrôle n’est pas obtenu, l’omalizumab.",
+            "locale": "fr",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Activité sévère (28 à 42)",
+            "locale": "fr",
+            "template": "documented-authored-c2211ee0864a6a21210b"
+          },
+          "note": {
+            "text": "Réévaluer le traitement : augmenter l’antihistaminique (jusqu’à 4 fois la dose) et, si le contrôle n’est pas obtenu, l’omalizumab.",
+            "locale": "fr",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "In der Woche keine Urtikaria",
+            "locale": "de",
+            "template": "documented-authored-91cc607fed2fcd232596"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Gut kontrollierte Urtikaria (1 bis 6)",
+            "locale": "de",
+            "template": "documented-authored-7ba233b40014f35e7dc7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Mäßige Aktivität (16 bis 27)",
+            "locale": "de",
+            "template": "documented-authored-2a70929211a9a00d4f52"
+          },
+          "note": {
+            "text": "Therapie neu bewerten: das Antihistaminikum erhöhen (bis auf das 4-Fache der Dosis) und, falls keine Kontrolle erreicht wird, Omalizumab.",
+            "locale": "de",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Schwere Aktivität (28 bis 42)",
+            "locale": "de",
+            "template": "documented-authored-c2211ee0864a6a21210b"
+          },
+          "note": {
+            "text": "Therapie neu bewerten: das Antihistaminikum erhöhen (bis auf das 4-Fache der Dosis) und, falls keine Kontrolle erreicht wird, Omalizumab.",
+            "locale": "de",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Nessuna orticaria nella settimana",
+            "locale": "it",
+            "template": "documented-authored-91cc607fed2fcd232596"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Orticaria ben controllata (1 a 6)",
+            "locale": "it",
+            "template": "documented-authored-7ba233b40014f35e7dc7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Attività moderata (16 a 27)",
+            "locale": "it",
+            "template": "documented-authored-2a70929211a9a00d4f52"
+          },
+          "note": {
+            "text": "Rivalutare il trattamento: aumentare l’antistaminico (fino a 4 volte la dose) e, se non controllato, omalizumab.",
+            "locale": "it",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Attività grave (28 a 42)",
+            "locale": "it",
+            "template": "documented-authored-c2211ee0864a6a21210b"
+          },
+          "note": {
+            "text": "Rivalutare il trattamento: aumentare l’antistaminico (fino a 4 volte la dose) e, se non controllato, omalizumab.",
+            "locale": "it",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "لا شرى خلال الأسبوع",
+            "locale": "ar",
+            "template": "documented-authored-91cc607fed2fcd232596"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "شرى مضبوط جيدًا (1 إلى 6)",
+            "locale": "ar",
+            "template": "documented-authored-7ba233b40014f35e7dc7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "نشاط متوسط (16 إلى 27)",
+            "locale": "ar",
+            "template": "documented-authored-2a70929211a9a00d4f52"
+          },
+          "note": {
+            "text": "إعادة تقييم العلاج: زيادة مضاد الهيستامين (حتى 4 أضعاف الجرعة) وإذا لم تتم السيطرة، فـأوماليزوماب.",
+            "locale": "ar",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "نشاط شديد (28 إلى 42)",
+            "locale": "ar",
+            "template": "documented-authored-c2211ee0864a6a21210b"
+          },
+          "note": {
+            "text": "إعادة تقييم العلاج: زيادة مضاد الهيستامين (حتى 4 أضعاف الجرعة) وإذا لم تتم السيطرة، فـأوماليزوماب.",
+            "locale": "ar",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "本周无荨麻疹",
+            "locale": "zh",
+            "template": "documented-authored-91cc607fed2fcd232596"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "控制良好的荨麻疹（1至6）",
+            "locale": "zh",
+            "template": "documented-authored-7ba233b40014f35e7dc7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中度活动（16至27）",
+            "locale": "zh",
+            "template": "documented-authored-2a70929211a9a00d4f52"
+          },
+          "note": {
+            "text": "重新评估治疗：增加抗组胺药（最多至剂量的 4 倍），如仍未控制，则使用奥马珠单抗。",
+            "locale": "zh",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "重度活动（28至42）",
+            "locale": "zh",
+            "template": "documented-authored-c2211ee0864a6a21210b"
+          },
+          "note": {
+            "text": "重新评估治疗：增加抗组胺药（最多至剂量的 4 倍），如仍未控制，则使用奥马珠单抗。",
+            "locale": "zh",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "今週は蕁麻疹なし",
+            "locale": "ja",
+            "template": "documented-authored-91cc607fed2fcd232596"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "コントロール良好な蕁麻疹（1～6）",
+            "locale": "ja",
+            "template": "documented-authored-7ba233b40014f35e7dc7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "中等度の活動性（16～27）",
+            "locale": "ja",
+            "template": "documented-authored-2a70929211a9a00d4f52"
+          },
+          "note": {
+            "text": "治療を再評価する：抗ヒスタミン薬を増量し（最大で4倍まで）、それでもコントロールできない場合はオマリズマブ。",
+            "locale": "ja",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "重度の活動性（28～42）",
+            "locale": "ja",
+            "template": "documented-authored-c2211ee0864a6a21210b"
+          },
+          "note": {
+            "text": "治療を再評価する：抗ヒスタミン薬を増量し（最大で4倍まで）、それでもコントロールできない場合はオマリズマブ。",
+            "locale": "ja",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Semana sem lesões: 0",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "सप्ताह में कोई पित्ती नहीं",
+            "locale": "hi",
+            "template": "documented-authored-91cc607fed2fcd232596"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "अच्छी तरह नियंत्रित पित्ती (1 से 6)",
+            "locale": "hi",
+            "template": "documented-authored-7ba233b40014f35e7dc7"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "मध्यम गतिविधि (16 से 27)",
+            "locale": "hi",
+            "template": "documented-authored-2a70929211a9a00d4f52"
+          },
+          "note": {
+            "text": "उपचार का पुनर्मूल्यांकन करें: एंटीहिस्टामिन बढ़ाएँ (खुराक के 4 गुना तक) और, यदि नियंत्रण न हो, तो ओमालिज़ुमैब।",
+            "locale": "hi",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "गंभीर सक्रियता (28 से 42)",
+            "locale": "hi",
+            "template": "documented-authored-c2211ee0864a6a21210b"
+          },
+          "note": {
+            "text": "उपचार का पुनर्मूल्यांकन करें: एंटीहिस्टामिन बढ़ाएँ (खुराक के 4 गुना तक) और, यदि नियंत्रण न हो, तो ओमालिज़ुमैब।",
+            "locale": "hi",
+            "template": "documented-authored-32e980b1d596e7dd6719"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

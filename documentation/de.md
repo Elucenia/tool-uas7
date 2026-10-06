@@ -187,3 +187,31 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+In der Woche keine Urtikaria
+
+
+### 2
+
+Gut kontrollierte Urtikaria (1 bis 6)
+
+
+### 3
+
+Mäßige Aktivität (16 bis 27)
+
+Therapie neu bewerten: das Antihistaminikum erhöhen (bis auf das 4-Fache der Dosis) und, falls keine Kontrolle erreicht wird, Omalizumab.
+
+
+### 4
+
+Schwere Aktivität (28 bis 42)
+
+Therapie neu bewerten: das Antihistaminikum erhöhen (bis auf das 4-Fache der Dosis) und, falls keine Kontrolle erreicht wird, Omalizumab.
+

@@ -1,0 +1,264 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "uas7",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "c4aec87e0d6f33a7cdd89a28d5e8ffd3a8257f0a",
+    "oldEngineSha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26",
+    "currentEngineSha256": "6660ac50033c6d2322dde17404bf2d34dca437d4bceb4cf301c798b53c2ef4c9"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Semana sem lesões: 0",
+      "input": {
+        "d1p": "0",
+        "d1c": "0",
+        "d2p": "0",
+        "d2c": "0",
+        "d3p": "0",
+        "d3c": "0",
+        "d4p": "0",
+        "d4c": "0",
+        "d5p": "0",
+        "d5c": "0",
+        "d6p": "0",
+        "d6c": "0",
+        "d7p": "0",
+        "d7c": "0"
+      },
+      "publicOutput": {
+        "id": "uas7",
+        "main": [
+          "0",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "raw": {
+          "score": 0
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 0,
+        "level": "low",
+        "verdict": "Sem urticária"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "0",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "level": "low",
+        "verdict": "Sem urticária na semana",
+        "note": "",
+        "raw": {
+          "score": 0
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Poucas urticas e prurido leve em 3 dias: 6 (bem controlada)",
+      "input": {
+        "d1p": "1",
+        "d1c": "0",
+        "d2p": "1",
+        "d2c": "1",
+        "d3p": "0",
+        "d3c": "0",
+        "d4p": "1",
+        "d4c": "1",
+        "d5p": "0",
+        "d5c": "0",
+        "d6p": "0",
+        "d6c": "1",
+        "d7p": "0",
+        "d7c": "0"
+      },
+      "publicOutput": {
+        "id": "uas7",
+        "main": [
+          "6",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "raw": {
+          "score": 6
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 6,
+        "level": "low",
+        "verdict": "bem controlada"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "6",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "level": "low",
+        "verdict": "Urticária bem controlada (1 a 6)",
+        "note": "",
+        "raw": {
+          "score": 6
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "20 a 50 urticas e prurido leve todos os dias: 21 (moderada)",
+      "input": {
+        "d1p": "2",
+        "d1c": "1",
+        "d2p": "2",
+        "d2c": "1",
+        "d3p": "2",
+        "d3c": "1",
+        "d4p": "2",
+        "d4c": "1",
+        "d5p": "2",
+        "d5c": "1",
+        "d6p": "2",
+        "d6c": "1",
+        "d7p": "2",
+        "d7c": "1"
+      },
+      "publicOutput": {
+        "id": "uas7",
+        "main": [
+          "21",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "raw": {
+          "score": 21
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 21,
+        "level": "mid",
+        "verdict": "moderada"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "21",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "level": "mid",
+        "verdict": "Atividade moderada (16 a 27)",
+        "note": "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe.",
+        "raw": {
+          "score": 21
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Mais de 50 urticas e prurido moderado todos os dias: 35 (grave)",
+      "input": {
+        "d1p": "3",
+        "d1c": "2",
+        "d2p": "3",
+        "d2c": "2",
+        "d3p": "3",
+        "d3c": "2",
+        "d4p": "3",
+        "d4c": "2",
+        "d5p": "3",
+        "d5c": "2",
+        "d6p": "3",
+        "d6c": "2",
+        "d7p": "3",
+        "d7c": "2"
+      },
+      "publicOutput": {
+        "id": "uas7",
+        "main": [
+          "35",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "raw": {
+          "score": 35
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 35,
+        "level": "high",
+        "verdict": "grave"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "35",
+          "de 42"
+        ],
+        "label": "UAS7",
+        "level": "high",
+        "verdict": "Atividade grave (28 a 42)",
+        "note": "Reavaliar o tratamento: aumentar o anti-histamínico (até 4 vezes a dose) e, se não controlar, omalizumabe.",
+        "raw": {
+          "score": 35
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

@@ -187,3 +187,31 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Aucune urticaire pendant la semaine
+
+
+### 2
+
+Urticaire bien contrôlée (1 à 6)
+
+
+### 3
+
+Activité modérée (16 à 27)
+
+Réévaluer le traitement : augmenter l’antihistaminique (jusqu’à 4 fois la dose) et, si le contrôle n’est pas obtenu, l’omalizumab.
+
+
+### 4
+
+Activité sévère (28 à 42)
+
+Réévaluer le traitement : augmenter l’antihistaminique (jusqu’à 4 fois la dose) et, si le contrôle n’est pas obtenu, l’omalizumab.
+

@@ -187,3 +187,31 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Nessuna orticaria nella settimana
+
+
+### 2
+
+Orticaria ben controllata (1 a 6)
+
+
+### 3
+
+Attività moderata (16 a 27)
+
+Rivalutare il trattamento: aumentare l’antistaminico (fino a 4 volte la dose) e, se non controllato, omalizumab.
+
+
+### 4
+
+Attività grave (28 a 42)
+
+Rivalutare il trattamento: aumentare l’antistaminico (fino a 4 volte la dose) e, se non controllato, omalizumab.
+

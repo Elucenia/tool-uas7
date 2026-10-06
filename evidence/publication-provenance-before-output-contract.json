@@ -1,0 +1,328 @@
+{
+  "schema": "elucenia-native-current-package-R6-HTTP-linked-r5",
+  "id": "uas7",
+  "repository": "Elucenia/tool-uas7",
+  "remoteBase": {
+    "id": "uas7",
+    "repository": "Elucenia/tool-uas7",
+    "branch": "main",
+    "commit": "c2e4226f1a3f37d2c4f18aba2122fdf7a0d46ede",
+    "archiveSha256": "85e3474c8dc6660514708c49a138f6c7070c966af80abf013e8082b0218cd8a3",
+    "protectedFiles": [
+      {
+        "path": ".gitattributes",
+        "type": "blob",
+        "mode": "100644",
+        "size": 19,
+        "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+        "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "type": "blob",
+        "mode": "100644",
+        "size": 279,
+        "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
+        "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
+      },
+      {
+        "path": ".gitignore",
+        "type": "blob",
+        "mode": "100644",
+        "size": 42,
+        "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
+        "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
+      },
+      {
+        "path": "AUTHORSHIP.md",
+        "type": "blob",
+        "mode": "100644",
+        "size": 3269,
+        "sha": "161c5560b4b3ec775183990d192caafe5da4cf70",
+        "sha256": "5d4b36bda72a4f478580d4340deae3b27edfb217cff0ddc141645cf39890f5bc"
+      },
+      {
+        "path": "CITATION.cff",
+        "type": "blob",
+        "mode": "100644",
+        "size": 897,
+        "sha": "081d88eb53437c77484343bc67c5bd4eeb43486c",
+        "sha256": "615011d009b77c9add93dcc83c8514ec48d8b27b007ea4e028d60f99ce047b94"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "type": "blob",
+        "mode": "100644",
+        "size": 1455,
+        "sha": "5ac6cdc1900e28cf2a296219679220ba66d1120b",
+        "sha256": "412e54a0c1124f26e822fd284ef586d212292c05741dc3192293f12cc6fc2802"
+      },
+      {
+        "path": "LICENSE",
+        "type": "blob",
+        "mode": "100644",
+        "size": 11358,
+        "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "NOTICE",
+        "type": "blob",
+        "mode": "100644",
+        "size": 1605,
+        "sha": "a0585ae758bc12a05280e879865e24b6c91575c8",
+        "sha256": "4de5e7b966a7184ac44da32854d2761e2121a23bb418be1271640f857e9479d2"
+      },
+      {
+        "path": "SECURITY.md",
+        "type": "blob",
+        "mode": "100644",
+        "size": 894,
+        "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
+        "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
+      }
+    ],
+    "receipt": {
+      "file": "reports/review-20261005-completion/native190-protected-remote-baseline-r1.json",
+      "bytes": 6066154,
+      "sha256": "ec8bac70e5a6eed7fb742c319c4e68344eea5713350fa16b9d9bf48e014a9a88"
+    },
+    "remoteCodeExecuted": false,
+    "freshBranchReadRequiredBeforePublication": true
+  },
+  "priorAuthorialStandalone": {
+    "file": "reports/review-20261003/github-publication-candidate-final36-v4.json",
+    "bytes": 6823260,
+    "sha256": "a3c528b12d7b5416fa0e62dda9e5106864bae7ff86710fa765934b5a3069e16c"
+  },
+  "currentSource": {
+    "file": "apps/website/private/tool-code/uas7/calculator.js",
+    "bytes": 8254,
+    "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+  },
+  "browserAdapterIdentical": true,
+  "methodVersion": "UAS 7/Mlynek 2008:7 dias UAS 0–6, total 0–42; limiares EAACIGA 2 LENEuro Gui Derm APAAACI 2022",
+  "implementationVersion": "uas7@native-2026-10-04+28bc9ad8d81f",
+  "locales": [
+    "pt-BR",
+    "en",
+    "es",
+    "fr",
+    "de",
+    "it",
+    "ar",
+    "zh",
+    "ja",
+    "hi"
+  ],
+  "sourceSnapshots": [
+    {
+      "file": "apps/dashboard/private/localization/pt-BR.json",
+      "bytes": 13601911,
+      "sha256": "347c306e9e588d9bff853ab948f100b2ce00d7adb88efb821e39c2799deb1806"
+    },
+    {
+      "file": "apps/dashboard/private/localization/en.json",
+      "bytes": 13681895,
+      "sha256": "e14119d6179a16e4af0998cb86cd7332e72eccae8a8257000b4ea940a5919f2b"
+    },
+    {
+      "file": "apps/dashboard/private/localization/es.json",
+      "bytes": 13727824,
+      "sha256": "52dce27b11b7d4bd0b0e599e66e24beb802f99068554f76c34ef81c98d7e164f"
+    },
+    {
+      "file": "apps/dashboard/private/localization/fr.json",
+      "bytes": 13775177,
+      "sha256": "e4ffcf4c7a5378bb9527a544548c6d8364aa309ea38f567359f8f198eee6c7c9"
+    },
+    {
+      "file": "apps/dashboard/private/localization/de.json",
+      "bytes": 13749397,
+      "sha256": "c92817a3fa8412a4f878061d3ac1c56be6d114aae1c3232c25f79c6ce7d597f4"
+    },
+    {
+      "file": "apps/dashboard/private/localization/it.json",
+      "bytes": 13726317,
+      "sha256": "5c7c142087de8016a75759669a7271a9048d9544b1a1383c626fafa7be0ece39"
+    },
+    {
+      "file": "apps/dashboard/private/localization/ar.json",
+      "bytes": 13962469,
+      "sha256": "c3a3cf978eeac700c01847f49bc4dd12759499a6973fa36733bc290786f9246d"
+    },
+    {
+      "file": "apps/dashboard/private/localization/zh.json",
+      "bytes": 13590420,
+      "sha256": "eb2c7d8d5b980d6d43e44bcc135bcde31565fab0290bf595f84975dec6fb294e"
+    },
+    {
+      "file": "apps/dashboard/private/localization/ja.json",
+      "bytes": 13729894,
+      "sha256": "eb524f45c7e9ce0fc3e951b159c102294d6702a1858a1f43f7e920c69fa1a290"
+    },
+    {
+      "file": "apps/dashboard/private/localization/hi.json",
+      "bytes": 14418664,
+      "sha256": "fe93d7fc31e91ed8c9d3acee80261a2f8ad74b77c86e6e28f9b4cadf5d9f048f"
+    }
+  ],
+  "referenceBank": {
+    "file": "reports/review-20261003/source-cases-audit.json",
+    "bytes": 885399,
+    "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+  },
+  "comparisonProgram": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "bytes": 20735,
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa"
+  },
+  "sourceNodeParityPassed": true,
+  "browserVmParityPassed": true,
+  "actualBrowserDomVerified": false,
+  "currentActualR6HttpEvidence": {
+    "path": "evidence/served-http-r6.json",
+    "bytes": 27474,
+    "sha256": "1c37eafb9eb82d2bb69b080bfd9c1b22fd54c95db57cee903413369b58aefa3a",
+    "sourceReceipt": {
+      "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+      "bytes": 7105396,
+      "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+    },
+    "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+    "sourceCalculator": {
+      "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/uas7/calculator.js",
+      "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26",
+      "bytes": 8254
+    },
+    "cases": 4,
+    "status": "passed"
+  },
+  "rights": {
+    "ownCodeScope": "Current MIT adapter and original Apache standalone wrapper/support; exact original licences and notices coexist without rewriting",
+    "sourceAdapter": {
+      "file": "apps/website/private/tool-code/uas7/calculator.js",
+      "bytes": 8254,
+      "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+    },
+    "currentLegalFiles": [
+      {
+        "file": "apps/command-center/private/tool-code/uas7/LICENSE",
+        "bytes": 1229,
+        "sha256": "51c010d285894558695812b9883d9c9ae7c9c89526f43597917e778965e65d93"
+      },
+      {
+        "file": "apps/command-center/private/tool-code/uas7/NOTICE.md",
+        "bytes": 1183,
+        "sha256": "b7d5eaa1074d1673caf885ac49b38e9b54b2c6086b45072eacf7b3fe139d8a6d"
+      }
+    ],
+    "protectedRemoteFiles": [
+      {
+        "path": ".gitattributes",
+        "type": "blob",
+        "mode": "100644",
+        "size": 19,
+        "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+        "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "type": "blob",
+        "mode": "100644",
+        "size": 279,
+        "sha": "7d3f2f34aa2e948d30695d82d64361467d9e6485",
+        "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
+      },
+      {
+        "path": ".gitignore",
+        "type": "blob",
+        "mode": "100644",
+        "size": 42,
+        "sha": "e375bd25cf1a574310ac4c7af0299884556e81e1",
+        "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
+      },
+      {
+        "path": "AUTHORSHIP.md",
+        "type": "blob",
+        "mode": "100644",
+        "size": 3269,
+        "sha": "161c5560b4b3ec775183990d192caafe5da4cf70",
+        "sha256": "5d4b36bda72a4f478580d4340deae3b27edfb217cff0ddc141645cf39890f5bc"
+      },
+      {
+        "path": "CITATION.cff",
+        "type": "blob",
+        "mode": "100644",
+        "size": 897,
+        "sha": "081d88eb53437c77484343bc67c5bd4eeb43486c",
+        "sha256": "615011d009b77c9add93dcc83c8514ec48d8b27b007ea4e028d60f99ce047b94"
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "type": "blob",
+        "mode": "100644",
+        "size": 1455,
+        "sha": "5ac6cdc1900e28cf2a296219679220ba66d1120b",
+        "sha256": "412e54a0c1124f26e822fd284ef586d212292c05741dc3192293f12cc6fc2802"
+      },
+      {
+        "path": "LICENSE",
+        "type": "blob",
+        "mode": "100644",
+        "size": 11358,
+        "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "NOTICE",
+        "type": "blob",
+        "mode": "100644",
+        "size": 1605,
+        "sha": "a0585ae758bc12a05280e879865e24b6c91575c8",
+        "sha256": "4de5e7b966a7184ac44da32854d2761e2121a23bb418be1271640f857e9479d2"
+      },
+      {
+        "path": "SECURITY.md",
+        "type": "blob",
+        "mode": "100644",
+        "size": 894,
+        "sha": "44eafb996937916cbe53e24fa9c5208fe03d5767",
+        "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
+      }
+    ],
+    "sourceMaterialScope": "Published mathematical/Boolean method implemented in ELUCENIA code; source-specific clinical descriptions and questionnaire expression remain separate from code ownership/licensing",
+    "scientificSources": [
+      [
+        "Młynek A et al. How to assess disease activity in patients with chronic urticaria? Allergy, 2008.",
+        "https://doi.org/10.1111/j.1398-9995.2008.01726.x"
+      ],
+      [
+        "Stull D et al. Analysis of disease activity categories in chronic spontaneous/idiopathic urticaria. Br J Dermatol, 2017.",
+        "https://doi.org/10.1111/bjd.15454"
+      ],
+      [
+        "Zuberbier T et al. The international EAACI/GA²LEN/EuroGuiDerm/APAAACI guideline for the definition, classification, diagnosis, and management of urticaria. Allergy, 2022.",
+        "https://doi.org/10.1111/all.15090"
+      ]
+    ],
+    "methodVersion": "UAS 7/Mlynek 2008:7 dias UAS 0–6, total 0–42; limiares EAACIGA 2 LENEuro Gui Derm APAAACI 2022",
+    "grantRecordedInNotice": true,
+    "thirdPartyInstrumentRightsApproval": "not-performed",
+    "wholeInstrumentApproval": false,
+    "professionalTranslationApproval": false,
+    "clinicalApproval": false,
+    "remainingScopeReview": "Check source-specific wording, questionnaire/instrument and translation conditions before treating the complete mixed bundle as cleared; no grant is inferred from public accessibility or code licence"
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "externalPublicationReady": false,
+  "publicationPerformed": false,
+  "appWrites": false,
+  "deliveryWrites": false,
+  "preparedFrom": {
+    "file": "reports/review-20261005-completion/native187-current-candidates-r2.json",
+    "bytes": 2785936,
+    "sha256": "2fe0448a9680b4a50b34235469d7cb36b3e8075ce0559d700f59442007cfb0f9"
+  }
+}

@@ -470,7 +470,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "UAS 7/Mlynek 2008:7 dias UAS 0–6, total 0–42; limiares EAACIGA 2 LENEuro Gui Derm APAAACI 2022",
-    "implementationVersion": "uas7@native-2026-10-04+28bc9ad8d81f",
+    "implementationVersion": "uas7@native-2026-10-05+6660ac50033c",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/18445192/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -892,7 +892,7 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26",
+      "implementationHash": "6660ac50033c6d2322dde17404bf2d34dca437d4bceb4cf301c798b53c2ef4c9",
       "uas2022SelectorAmendment": {
         "at": "2026-10-04T19:06:52.620Z",
         "scope": "Twenty-eight display option strings (four definitions repeated over seven days) bound to2022Table10. No assigned-point code, engine, formula, methodVersion, prior limits/source claims, fixture or clinical category change.",
@@ -1263,7 +1263,35 @@
           }
         ],
         "hash": "d0f49643cd1d04b5dff8b29d3cb3d1dd6c2904132d875bb9f3e5f327279212af"
-      }
+      },
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "uas7@native-2026-10-04+28bc9ad8d81f",
+          "previousImplementationHash": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26",
+          "implementationHash": "6660ac50033c6d2322dde17404bf2d34dca437d4bceb4cf301c798b53c2ef4c9",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "dd9f9b6d6236fe6ae95ea1b1b12ad9e6ebba2308c056e0ffb3ab65e282b49186",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O UAS monitora atividade da urticária crônica por número de urticas e prurido registrados ao longo de dias. Não representa todas as manifestações, como angioedema, nem substitui avaliação de qualidade de vida. UAS7 e categorias posteriores devem seguir sua definição temporal e fonte próprias.",
     "sourceLimitEvidence": {
@@ -1282,20 +1310,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/uas7/calculator.js",
-    "bytes": 8254,
-    "sha256": "28bc9ad8d81f000343a96795aa394372e6bfe1dc2ae708b230e67f396fc2bd26"
+    "bytes": 8459,
+    "sha256": "6660ac50033c6d2322dde17404bf2d34dca437d4bceb4cf301c798b53c2ef4c9"
   },
-  "sourceToolSha256": "63627b71d2f10fd908f7bb55e22803a6f1b2897939ad856b0682fa60a96e356a",
+  "sourceToolSha256": "dc0325cc3c8df62eccbd2d9c7a13d61113ced1e618bbb2da2174aed7739209a8",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "d33548f6d196c8cee4f18445b2570fadf28e3c0c4a7b9d3bdebb906518260df1",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "d33548f6d196c8cee4f18445b2570fadf28e3c0c4a7b9d3bdebb906518260df1",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",
